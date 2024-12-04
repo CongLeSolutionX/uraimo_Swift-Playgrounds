@@ -11,7 +11,7 @@
 #include <unistd.h>
 
 
-void printStuff(){
+void printStuff(void){
     printf("Printing something!\n");
 }
 
@@ -24,7 +24,7 @@ void giveMeUnsafePointer(const int * param){
 void functionThatExpectsAConstCharPointer(const char * param){
 }
 
-function_type returnAFunction(){
+function_type returnAFunction(void){
     return &printStuff;
 }
 
